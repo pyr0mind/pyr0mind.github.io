@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Agency Landing Page</title>
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Automate Your Business with AI</h1>
+    <p>Save Time, Cut Costs, Grow Faster with Custom AI Solutions</p>
+    <button class="btn btn-primary">Book a Free Discovery Call</button>
+    <button class="btn btn-secondary" onclick="openWhatsApp()">WhatsApp Us Now</button>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Us</h2>
+          <p>
+            I’m <strong>Yashpalsinh</strong>, a <strong>PyTorch & Deep Learning Developer</strong>.
+            I help <strong>small businesses</strong> integrate <strong>AI</strong> quickly with 
+            practical solutions that deliver results in <span class="highlight">weeks, not months</span>.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" alt="AI Illustration">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service">
+        <h3>AI Chatbots</h3>
+        <p>Handle FAQs, leads, appointments 24/7.</p>
+      </div>
+      <div class="service">
+        <h3>Computer Vision</h3>
+        <p>People counting, intrusion alerts, queue monitoring.</p>
+      </div>
+      <div class="service">
+        <h3>Document Automation</h3>
+        <p>Convert PDFs into structured data instantly.</p>
+      </div>
+      <div class="service">
+        <h3>Predictive Models</h3>
+        <p>Forecast sales, leads, churn, and demand.</p>
+      </div>
+      <div class="service">
+        <h3>AI Marketing Tools</h3>
+        <p>Personalized email & ad copy, lead gen automation.</p>
+      </div>
+      <div class="service">
+        <h3>Model Optimization</h3>
+        <p>Run AI on edge/mobile devices efficiently.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <h3>Starter</h3>
+        <p>₹10k – ₹15k</p>
+        <p>Pilot in 1–2 weeks</p>
+      </div>
+      <div class="price-card">
+        <h3>Growth</h3>
+        <p>₹25k – ₹45k</p>
+        <p>Production Build, 3–4 weeks</p>
+      </div>
+      <div class="price-card">
+        <h3>Scale</h3>
+        <p>₹60k – ₹1,20k</p>
+        <p>Advanced + Deployment, 4–8 weeks</p>
+      </div>
+    </div>
+    <p style="margin-top:20px;">Monthly Support: ₹2.5k–₹5k</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="sendToWhatsApp(event)">
+      <input type="text" id="name" placeholder="Your Name" required><br><br>
+      <input type="email" id="email" placeholder="Your Email" required><br><br>
+      <textarea id="message" placeholder="Your Message" required></textarea><br><br>
+      <button type="submit" class="btn btn-secondary">Send on WhatsApp</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>  
+    <div class="social-links"> 
+      <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
+      <a href="https://x.com/YOUR-HANDLE" target="_blank"><i class="fa-brands fa-x-twitter"></i></a> 
+      <a href="https://www.kaggle.com/YOUR-KAGGLE" target="_blank"><i class="fa-brands fa-kaggle"></i></a>
+      <a href="https://linkedin.com/in/YOUR-PERSONAL-LINKEDIN" target="_blank"><i class="fas fa-user"></i></a> 
+    </div>
+    <p>© 2025 AI Automation Agency. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
